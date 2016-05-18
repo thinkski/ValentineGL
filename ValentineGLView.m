@@ -46,7 +46,6 @@
 		
         if (!glView) {             
             NSLog( @"Couldn't initialize OpenGL view." );
-            [self autorelease];
             return nil;
         } 
         
